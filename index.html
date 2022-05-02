@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Destinations WishList</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+	<!-- Our CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Vacation Destination WishList</h1>
+    <p>Found some interesting destinations to visit? Add them to your wishlist.</p>
+</header>
+
+    <main>
+        <form id="destinationDetails">
+            <label for="destinationName">Destination Name</label>
+            <input type="text" id="destinationName" placeholder="Enter a destination name">
+            <label for="destinationLocation">Destination Location</label>
+            <input type="text" id="destinationLocation" placeholder="Enter a destination location">
+            <label for="destinationPhoto">Destination Photo</label>
+            <input type="url" id="destinationPhoto" placeholder="Add a destination photo">
+            <label for="destinationDescription">Destination Description</label>
+            <textarea id="destinationDescription" placeholder="Enter a destination description"></textarea>
+            <button type="submit">Add to wishlist</button>
+        </form>
+        <article>
+            <h2 id="title">Enter Destination Details</h2>
+            <div id="destinationContainer">
+                <!-- <div class="card">
+                    <img src="images/signpost.jpg" alt="destination_image">
+                    <div class="cardBody">
+                        <h3>Destination Name</h3>
+                        <h4>Destination Location</h4>
+                        <p class="cardText">Destination description</p>
+                        <button>Remove</button>
+
+                    </div> -->
+                </div>
+            </div>
+        </article>
+    </main>
+    <!-- Our JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
